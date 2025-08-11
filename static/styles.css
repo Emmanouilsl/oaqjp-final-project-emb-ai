@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.center-heading {
+    text-align: center;
+    font-weight: 600;
+}
+
+#system_response {
+    background-color: #f0f3f5;
+    border-radius: 8px;
+    min-height: 50px;
+}
